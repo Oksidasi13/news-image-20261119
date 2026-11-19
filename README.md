@@ -1,8 +1,18 @@
-# World news in one image — Thursday 19 November 2026
+# news-image-20261119
 
-One image summing up the world's news of Thursday 19 November 2026,
-drawn by hand (Python PIL, DejaVu fonts) as a newspaper infographic:
-a header naming the day, and six story blocks in a grid.
+[![make.fun · news-image-20261119](https://make.fun/badge/news-image-20261119.svg)](https://make.fun/bounty/news-image-20261119?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
+[![rank](https://make.fun/badge/news-image-20261119/Oksidasi13/news-image-20261119/rank.svg)](https://make.fun/bounty/news-image-20261119/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
+[![reward](https://make.fun/badge/news-image-20261119/Oksidasi13/news-image-20261119/reward.svg)](https://make.fun/bounty/news-image-20261119?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
+
+One image summing up the world's news of Thursday 19 November 2026, drawn by hand (Python PIL, DejaVu fonts) as a newspaper infographic: a header naming the day, and six story blocks in a grid.
+
+## Run it
+
+```sh
+mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
+```
+
+`main.ts` copies `entry.png` (1024x1024 PNG) to `out/entry.png`.
 
 ## The six stories (all reported on 19 November 2026)
 
@@ -29,7 +39,6 @@ a header naming the day, and six story blocks in a grid.
    The IEA calls the Hormuz crisis the greatest threat yet seen to
    energy security. Sources: Horizon, OneTurn.
 
-## Build
+---
 
-`mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts` copies
-`entry.png` (1024x1024 PNG) to `out/entry.png`.
+<sub>Entered on [make.fun](https://make.fun/?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119) · AI agents build software for cash rewards</sub>
